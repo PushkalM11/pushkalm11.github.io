@@ -71,286 +71,174 @@
       </div>
       
       <div class="publications-grid">
-        <!-- Publication 1: C-Shenron -->
-        <article class="publication-card" onmouseout="coflip_stop()" onmouseover="coflip_start()">
+        <!-- Publication 1: C-Shenron VTC -->
+        <article class="publication-card" onmouseout="cshenron_stop()" onmouseover="cshenron_start()">
           <div class="publication-media">
             <div class="media-container">
-              <div class="video-overlay" id='coflip_image'>
-                <video width="100%" height="100%" muted autoplay loop>
-                  <source src="images/coflip.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+              <div class="video-overlay" id='cshenron_image'>
+                <img src='images/c-shenron-vtc25.gif' alt="C-Shenron VTC" class="publication-image">
               </div>
-              <img src='images/coflip.jpg' alt="CO-FLIP" class="publication-image">
             </div>
           </div>
           
           <div class="publication-content">
             <h3 class="publication-title">
-              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIGA24COFLIP/">
-                Fluid Implicit Particles on Coadjoint Orbits
+              <a href="https://wcsng.ucsd.edu/c-shenron/">
+                A Realistic Radar Simulator for End-to-End Autonomous Driving in CARLA
               </a>
             </h3>
             
             <div class="publication-authors">
-              <strong>Pushkal Mishra</strong>,
-              <a href="https://scholar.google.com/citations?user=jSueleoAAAAJ&hl=en">Ritoban Roy-Chowdhury</a>,
-              <a href="https://yhesper.github.io">Hang Yin</a>,
-              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
-              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              <strong>Satyam Srivastava*</strong>,
+              <strong>Jerry Li*</strong>,
+              <strong>Pushkal Mishra*</strong>,
+              Kshitiz Bansal,
+              Dinesh Bharadia
             </div>
             
             <div class="publication-venue">
-              <span class="venue">SIGGRAPH Asia 2024</span>
-              <span class="award">Best Paper (Honorable Mention)</span>
+              <span class="venue">IEEE VTC Fall 2025</span>
             </div>
             
             <p class="publication-description">
-              We propose Coadjoint Orbit FLIP (CO-FLIP), a high order accurate, structure preserving fluid simulation method in the hybrid Eulerian-Lagrangian framework. Using a discrete Hamiltonian formulation we achieve energy and Casimir preservation; formally, the flow evolves on infinite-dimensional coadjoint orbits.
+              We present C-Shenron, a radar simulation framework integrated into CARLA that generates realistic radar measurements by fusing LiDAR and camera data. Our framework supports configurable radar parameters and demonstrates that radar-camera fusion models achieve performance equivalent to LiDAR-camera baselines on CARLA leaderboard metrics.
             </p>
             
             <div class="publication-links">
-              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIGA24COFLIP/" class="pub-link">
+              <a href="https://wcsng.ucsd.edu/c-shenron/" class="pub-link">
                 <i class="fas fa-globe"></i> Project Page
               </a>
-              <a href="#" class="pub-link">
-                <i class="fas fa-video"></i> Video
+              <a href="http://wcsng-41.nrp-nautilus.io:8000/" class="pub-link">
+                <i class="fas fa-database"></i> Dataset
               </a>
-              <a href="data/coflip_siggraphasia2024.bib" class="pub-link">
-                <i class="fas fa-quote-right"></i> BibTeX
+              <a href="https://www.youtube.com/playlist?list=PLMklUDp_gXNE2W83f0UNoK7Vrs9QZROIv" class="pub-link">
+                <i class="fas fa-video"></i> Videos
               </a>
             </div>
           </div>
         </article>
 
-        <!-- Publication 2: Fluid Cohomology -->
-        <article class="publication-card" onmouseout="fluidcohomology_stop()" onmouseover="fluidcohomology_start()">
-          <div class="publication-media">
-            <div class="media-container">
-              <div class="video-overlay" id='fluidcohomology_image'>
-                <video width="100%" height="100%" muted autoplay loop>
-                  <source src="images/fluidcohomology.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <img src='images/fluidcohomology.png' alt="Fluid Cohomology" class="publication-image">
-            </div>
-          </div>
-          
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="https://yhesper.github.io/fc23/fc23.html">
-                Fluid Cohomology
-              </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <a href="https://yhesper.github.io">Hang Yin</a>,
-              <strong>Pushkal Mishra</strong>,
-              <a href="https://acsweb.ucsd.edu/~bwu/">Baichuan Wu</a>,
-              <a href="https://evastgh.github.io/">Stephanie Wang</a>,
-              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue">SIGGRAPH 2023</span>
-            </div>
-            
-            <p class="publication-description">
-              We derive the dynamics of harmonic components for incompressible inviscid fluids, which has previously been overlooked in the vorticity-streamfunction formulation for Euler equations. We elucidate the physical laws associated with the new equations and show their importance in reproducing physically correct behaviors.
-            </p>
-            
-            <div class="publication-links">
-              <a href="https://yhesper.github.io/fc23/fc23.html" class="pub-link">
-                <i class="fas fa-globe"></i> Project Page
-              </a>
-              <a href="https://youtu.be/eY8RUi5mrhc" class="pub-link">
-                <i class="fas fa-video"></i> Video
-              </a>
-              <a href="data/fluidcohomology_siggraph2023.bib" class="pub-link">
-                <i class="fas fa-quote-right"></i> BibTeX
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Publication 3: Exterior Calculus Course -->
+        <!-- Publication 2: C-Shenron Demo -->
         <article class="publication-card">
           <div class="publication-media">
             <div class="media-container">
-              <img src='images/extcourse.png' alt="Exterior Calculus Course" class="publication-image">
+              <img src='images/c-shenron-demo-sensys25.png' alt="C-Shenron Demo" class="publication-image">
             </div>
           </div>
           
           <div class="publication-content">
             <h3 class="publication-title">
-              <a href="https://stephaniewang.page/ExteriorCalculusInGraphics/">
-                Exterior Calculus in Graphics
+              <a href="https://wcsng.ucsd.edu/c-shenron-demo/">
+                Demo: Radar Simulator for CARLA
               </a>
             </h3>
             
             <div class="publication-authors">
-              <a href="https://evastgh.github.io/">Stephanie Wang</a>,
               <strong>Pushkal Mishra</strong>,
-              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              Satyam Srivastava,
+              Jerry Li,
+              Kshitiz Bansal,
+              Dinesh Bharadia
             </div>
             
             <div class="publication-venue">
-              <span class="venue">SIGGRAPH 2023</span>
+              <span class="venue">ACM SenSys 2025</span>
             </div>
             
             <p class="publication-description">
-              This is a comprehensive course for graphics researchers to fill the gap between their undergraduate curriculum of multivariable calculus and cutting-edge graphics research. We use relevant examples from computer graphics to illustrate the theory of exterior calculus leading to advanced topics including continuum mechanics, fluid dynamics, and geometric optimizations.
+              C-Shenron is the first realistic radar simulator that utilizes LiDAR and camera sensors to generate high-fidelity radar ADC measurements from physics-based modeling. We demonstrate improved performance in end-to-end driving scenarios and aim to rekindle interest in radar-based self-driving research.
             </p>
             
             <div class="publication-links">
-              <a href="https://stephaniewang.page/ExteriorCalculusInGraphics/" class="pub-link">
+              <a href="https://wcsng.ucsd.edu/c-shenron-demo/" class="pub-link">
                 <i class="fas fa-globe"></i> Project Page
               </a>
-              <a href="data/extcourse_siggraph2023.bib" class="pub-link">
+              <a href="data/c-shenron-demo-sensys25.bib" class="pub-link">
                 <i class="fas fa-quote-right"></i> BibTeX
               </a>
             </div>
           </div>
         </article>
 
-        <!-- Publication 4: Wave Simulations -->
-        <article class="publication-card" onmouseout="infinitewave_stop()" onmouseover="infinitewave_start()">
+        <!-- Publication 3: SPELA -->
+        <article class="publication-card">
           <div class="publication-media">
             <div class="media-container">
-              <div class="video-overlay" id='infinitewave_image'>
-                <video width="100%" height="100%" muted autoplay loop>
-                  <source src="images/infinitewave.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <img src='images/infinitewave.jpeg' alt="Wave Simulations" class="publication-image">
+              <img src='images/spela-tmlr25.png' alt="SPELA Learning" class="publication-image">
             </div>
           </div>
           
           <div class="publication-content">
             <h3 class="publication-title">
-              <a href="https://arxiv.org/abs/2305.08033">
-                Wave Simulations in Infinite Spacetime
+              <a href="https://openreview.net/forum?id=EDQ8QOGqjr">
+                Learning Using a Single Forward Pass
               </a>
             </h3>
             
             <div class="publication-authors">
-              <a href="https://chadmckell.com/">Chad McKell</a>,
-              <strong>Pushkal Mishra</strong>,
-              <a href="https://evastgh.github.io/">Stephanie Wang</a>,
-              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              <strong>Aditya Somasundaram*</strong>,
+              <strong>Pushkal Mishra*</strong>,
+              Ayon Borthakur
             </div>
             
             <div class="publication-venue">
-              <span class="venue">Under Review</span>
+              <span class="venue">TMLR 2025</span>
+              <span class="award">Best Poster Award at NYAS</span>
             </div>
             
             <p class="publication-description">
-              We present a method for solving the wave equation on the entire infinite domain using only finite computation time and memory. We perform wave simulations in infinite spacetime using a finite discretization of the bounded spacetime with no additional loss of accuracy introduced by the Kelvin transformation.
+              We propose SPELA, a learning algorithm that operates with local loss functions using a single forward pass, significantly reducing memory and computational requirements. SPELA eliminates gradient propagation while demonstrating competitive performance with backpropagation on standard benchmarks, making it ideal for resource-constrained edge AI applications.
             </p>
             
             <div class="publication-links">
-              <a href="https://arxiv.org/abs/2305.08033" class="pub-link">
-                <i class="fas fa-link"></i> ArXiv Link
+              <a href="https://openreview.net/forum?id=EDQ8QOGqjr" class="pub-link">
+                <i class="fas fa-link"></i> Paper
               </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Publication 5: Co-vector Fluids -->
-        <article class="publication-card" onmouseout="covectorfluids_stop()" onmouseover="covectorfluids_start()">
-          <div class="publication-media">
-            <div class="media-container">
-              <div class="video-overlay" id='covectorfluids_image'>
-                <video width="100%" height="100%" muted autoplay loop>
-                  <source src="images/covectorfluids.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <img src='images/covectorfluids.png' alt="Co-vector Fluids" class="publication-image">
-            </div>
-          </div>
-          
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIG22CovectorFluids/">
-                Covector Fluids
+              <a href="files/spela-nyas-poster.pdf" class="pub-link">
+                <i class="fas fa-image"></i> Poster
               </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <strong>Pushkal Mishra</strong>,
-              <a href="https://evastgh.github.io/">Stephanie Wang</a>,
-              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
-              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue">SIGGRAPH 2022</span>
-            </div>
-            
-            <p class="publication-description">
-              We simulate Euler equations for inviscid fluids by using a novel formulation based on covectors. This new formulation is an entirely velocity-based method in the vein of advection-projection methods while emulating vortex methods. This allows for capturing more intricate vortex dynamics and reducing dissipation of energy with low computational overhead.
-            </p>
-            
-            <div class="publication-links">
-              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIG22CovectorFluids/" class="pub-link">
-                <i class="fas fa-globe"></i> Project Page
-              </a>
-              <a href="https://youtu.be/jM1FNiVYofI" class="pub-link">
-                <i class="fas fa-video"></i> Video
-              </a>
-              <a href="data/covectorfluids_siggraph2022.bib" class="pub-link">
+              <a href="data/spela-learning-tmlr2025.bib" class="pub-link">
                 <i class="fas fa-quote-right"></i> BibTeX
               </a>
             </div>
           </div>
         </article>
 
-        <!-- Publication 6: Kelvin Transform -->
-        <article class="publication-card" onmouseout="kelvintransform_stop()" onmouseover="kelvintransform_start()">
+        <!-- Publication 4: Graph Inpainting -->
+        <article class="publication-card">
           <div class="publication-media">
             <div class="media-container">
-              <div class="video-overlay" id='kelvintransform_image'>
-                <video width="100%" height="100%" muted autoplay loop>
-                  <source src="images/kelvintransform.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <img src='images/kelvintransform.png' alt="Kelvin Transform" class="publication-image">
+              <img src='images/graph-inpainting-spl24.png' alt="Graph Inpainting" class="publication-image">
             </div>
           </div>
           
           <div class="publication-content">
             <h3 class="publication-title">
-              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/">
-                Kelvin Transformations for Simulations on Infinite Domains
+              <a href="https://ieeexplore.ieee.org/document/10756724">
+                Inpainting-Driven Graph Learning via Explainable Neural Networks
               </a>
             </h3>
             
             <div class="publication-authors">
-              <strong>Pushkal Mishra</strong>,
-              <a href="https://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
-              <a href="https://cseweb.ucsd.edu/~alchern/">Albert Chern</a>
+              <strong>Subbareddy Batreddy*</strong>,
+              <strong>Pushkal Mishra*</strong>,
+              Yaswanth Kakarla,
+              Aditya Siripuram
             </div>
             
             <div class="publication-venue">
-              <span class="venue">SIGGRAPH 2021</span>
+              <span class="venue">IEEE Signal Processing Letters 2024</span>
             </div>
             
             <p class="publication-description">
-              We solve infinite-domain simulation problems by applying the Kelvin transform. The transformation turns infinite-domain PDEs into bounded-domain ones via a domain inversion and a singularity factorization.
+              We propose an algorithm for simultaneous data restoration and graph structure learning using an interpretable neural network designed from unrolling framework. Our closed-loop feedback mechanism guides graph learning based on inpainting performance, achieving robust results under noisy conditions on sensor network datasets.
             </p>
             
             <div class="publication-links">
-              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/" class="pub-link">
-                <i class="fas fa-globe"></i> Project Page
+              <a href="https://ieeexplore.ieee.org/document/10756724" class="pub-link">
+                <i class="fas fa-link"></i> Paper
               </a>
-              <a href="https://www.youtube.com/watch?v=7zxp0kAzWwI" class="pub-link">
-                <i class="fas fa-video"></i> Video
-              </a>
-              <a href="data/kelvintransform_siggraph2021.bib" class="pub-link">
+              <a href="data/graph-inpainitng-spl2024.bib" class="pub-link">
                 <i class="fas fa-quote-right"></i> BibTeX
               </a>
             </div>
@@ -428,46 +316,13 @@
 
   <!-- JavaScript for hover effects -->
   <script>
-    function coflip_start() {
-      document.getElementById('coflip_image').style.opacity = "1";
+    function cshenron_start() {
+      document.getElementById('cshenron_image').style.opacity = "1";
     }
-    function coflip_stop() {
-      document.getElementById('coflip_image').style.opacity = "0";
+    function cshenron_stop() {
+      document.getElementById('cshenron_image').style.opacity = "0";
     }
-    coflip_stop();
-
-    function fluidcohomology_start() {
-      document.getElementById('fluidcohomology_image').style.opacity = "1";
-    }
-    function fluidcohomology_stop() {
-      document.getElementById('fluidcohomology_image').style.opacity = "0";
-    }
-    fluidcohomology_stop();
-
-    // Additional publication hover functions
-    function infinitewave_start() {
-      document.getElementById('infinitewave_image').style.opacity = "1";
-    }
-    function infinitewave_stop() {
-      document.getElementById('infinitewave_image').style.opacity = "0";
-    }
-    infinitewave_stop();
-
-    function covectorfluids_start() {
-      document.getElementById('covectorfluids_image').style.opacity = "1";
-    }
-    function covectorfluids_stop() {
-      document.getElementById('covectorfluids_image').style.opacity = "0";
-    }
-    covectorfluids_stop();
-
-    function kelvintransform_start() {
-      document.getElementById('kelvintransform_image').style.opacity = "1";
-    }
-    function kelvintransform_stop() {
-      document.getElementById('kelvintransform_image').style.opacity = "0";
-    }
-    kelvintransform_stop();
+    cshenron_stop();
   </script>
   
   <!-- Footer -->
