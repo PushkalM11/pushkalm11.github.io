@@ -757,6 +757,42 @@ img[src*="ioaaleader.png"] {
   margin-top: var(--spacing-3xl);
 }
 
+/* Visitor Counter Styling */
+.visitor-counter {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-xl);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: var(--shadow-sm);
+}
+
+.visitor-counter h3 {
+  font-size: var(--font-size-lg);
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+.flag-counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-counter-container img {
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast);
+}
+
+.flag-counter-container img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-md);
+}
+
 .footer-text {
   text-align: center;
   font-size: var(--font-size-sm);

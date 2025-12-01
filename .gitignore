@@ -1,4 +1,5 @@
 *.DS_Store
 
 # Temporary directory
-tmp/**
+tmp/*
+_site/*
