@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pushkalm11.github.io/sitemap.xml
