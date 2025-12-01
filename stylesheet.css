@@ -378,6 +378,7 @@ a:hover {
   object-position: center;
   padding: var(--spacing-sm);
   border-radius: var(--border-radius-md);
+  transition: opacity var(--transition-normal);
 }
 
 .video-overlay {
@@ -389,6 +390,18 @@ a:hover {
   opacity: 0;
   transition: opacity var(--transition-normal);
   z-index: 2;
+  pointer-events: none; /* Prevent blocking clicks when hidden */
+}
+
+.video-overlay.active {
+  pointer-events: auto; /* Re-enable clicks when active */
+}
+
+.video-overlay .publication-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .video-overlay video {

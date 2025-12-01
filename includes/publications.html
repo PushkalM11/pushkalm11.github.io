@@ -1,0 +1,186 @@
+<!-- Publications Section -->
+<section class="publications-section">
+  <div class="section-header">
+    <h2>Publications</h2>
+    <p class="section-description">
+      I am broadly interested in the intersection of sensing, machine learning, real-world perception systems and engineering. I am very passionate about developing scalable deep learning systems that have real-world impact and drive innovation.
+    </p>
+  </div>
+  
+  <div class="publications-grid">
+    <!-- Publication 1: C-Shenron VTC -->
+    <article class="publication-card" onmouseout="cshenron_stop()" onmouseover="cshenron_start()">
+      <div class="publication-media">
+        <div class="media-container">
+          <img src='images/c-shenron-demo-sensys25.png' alt="C-Shenron VTC" class="publication-image" id='cshenron_static'>
+          <div class="video-overlay" id='cshenron_image'>
+            <img src='images/c-shenron-vtc25.gif' alt="C-Shenron VTC" class="publication-image">
+          </div>
+        </div>
+      </div>
+      
+      <div class="publication-content">
+        <h3 class="publication-title">
+          <a href="https://wcsng.ucsd.edu/c-shenron/">
+            A Realistic Radar Simulator for End-to-End Autonomous Driving in CARLA
+          </a>
+        </h3>
+        
+        <div class="publication-authors">
+          <strong>Satyam Srivastava*</strong>,
+          <strong>Jerry Li*</strong>,
+          <strong>Pushkal Mishra*</strong>,
+          Kshitiz Bansal,
+          Dinesh Bharadia
+        </div>
+        
+        <div class="publication-venue">
+          <span class="venue">IEEE VTC Fall 2025</span>
+        </div>
+        
+        <p class="publication-description">
+          We present C-Shenron, a radar simulation framework integrated into CARLA that generates realistic radar measurements by fusing LiDAR and camera data. Our framework supports configurable radar parameters and demonstrates that radar-camera fusion models achieve performance equivalent to LiDAR-camera baselines on CARLA leaderboard metrics.
+        </p>
+        
+        <div class="publication-links">
+          <a href="https://wcsng.ucsd.edu/c-shenron/" class="pub-link">
+            <i class="fas fa-globe"></i> Project Page
+          </a>
+          <a href="http://wcsng-41.nrp-nautilus.io:8000/" class="pub-link">
+            <i class="fas fa-database"></i> Dataset
+          </a>
+          <a href="https://www.youtube.com/playlist?list=PLMklUDp_gXNE2W83f0UNoK7Vrs9QZROIv" class="pub-link">
+            <i class="fas fa-video"></i> Videos
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Publication 2: C-Shenron Demo -->
+    <article class="publication-card">
+      <div class="publication-media">
+        <div class="media-container">
+          <img src='images/c-shenron-demo-sensys25.png' alt="C-Shenron Demo" class="publication-image">
+        </div>
+      </div>
+      
+      <div class="publication-content">
+        <h3 class="publication-title">
+          <a href="https://wcsng.ucsd.edu/c-shenron-demo/">
+            Demo: Radar Simulator for CARLA
+          </a>
+        </h3>
+        
+        <div class="publication-authors">
+          <strong>Pushkal Mishra</strong>,
+          Satyam Srivastava,
+          Jerry Li,
+          Kshitiz Bansal,
+          Dinesh Bharadia
+        </div>
+        
+        <div class="publication-venue">
+          <span class="venue">ACM SenSys 2025</span>
+        </div>
+        
+        <p class="publication-description">
+          C-Shenron is the first realistic radar simulator that utilizes LiDAR and camera sensors to generate high-fidelity radar ADC measurements from physics-based modeling. We demonstrate improved performance in end-to-end driving scenarios and aim to rekindle interest in radar-based self-driving research.
+        </p>
+        
+        <div class="publication-links">
+          <a href="https://wcsng.ucsd.edu/c-shenron-demo/" class="pub-link">
+            <i class="fas fa-globe"></i> Project Page
+          </a>
+          <a href="data/c-shenron-demo-sensys25.bib" class="pub-link">
+            <i class="fas fa-quote-right"></i> BibTeX
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Publication 3: SPELA -->
+    <article class="publication-card">
+      <div class="publication-media">
+        <div class="media-container">
+          <img src='images/spela-tmlr25.png' alt="SPELA Learning" class="publication-image">
+        </div>
+      </div>
+      
+      <div class="publication-content">
+        <h3 class="publication-title">
+          <a href="https://openreview.net/forum?id=EDQ8QOGqjr">
+            Learning Using a Single Forward Pass
+          </a>
+        </h3>
+        
+        <div class="publication-authors">
+          <strong>Aditya Somasundaram*</strong>,
+          <strong>Pushkal Mishra*</strong>,
+          Ayon Borthakur
+        </div>
+        
+        <div class="publication-venue">
+          <span class="venue">TMLR 2025</span>
+          <span class="award">Best Poster Award at NYAS</span>
+        </div>
+        
+        <p class="publication-description">
+          We propose SPELA, a learning algorithm that operates with local loss functions using a single forward pass, significantly reducing memory and computational requirements. SPELA eliminates gradient propagation while demonstrating competitive performance with backpropagation on standard benchmarks, making it ideal for resource-constrained edge AI applications.
+        </p>
+        
+        <div class="publication-links">
+          <a href="https://openreview.net/forum?id=EDQ8QOGqjr" class="pub-link">
+            <i class="fas fa-link"></i> Paper
+          </a>
+          <a href="files/spela-nyas-poster.pdf" class="pub-link">
+            <i class="fas fa-image"></i> Poster
+          </a>
+          <a href="data/spela-learning-tmlr2025.bib" class="pub-link">
+            <i class="fas fa-quote-right"></i> BibTeX
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Publication 4: Graph Inpainting -->
+    <article class="publication-card">
+      <div class="publication-media">
+        <div class="media-container">
+          <img src='images/graph-inpainting-spl24.png' alt="Graph Inpainting" class="publication-image">
+        </div>
+      </div>
+      
+      <div class="publication-content">
+        <h3 class="publication-title">
+          <a href="https://ieeexplore.ieee.org/document/10756724">
+            Inpainting-Driven Graph Learning via Explainable Neural Networks
+          </a>
+        </h3>
+        
+        <div class="publication-authors">
+          <strong>Subbareddy Batreddy*</strong>,
+          <strong>Pushkal Mishra*</strong>,
+          Yaswanth Kakarla,
+          Aditya Siripuram
+        </div>
+        
+        <div class="publication-venue">
+          <span class="venue">IEEE Signal Processing Letters 2024</span>
+        </div>
+        
+        <p class="publication-description">
+          We propose an algorithm for simultaneous data restoration and graph structure learning using an interpretable neural network designed from unrolling framework. Our closed-loop feedback mechanism guides graph learning based on inpainting performance, achieving robust results under noisy conditions on sensor network datasets.
+        </p>
+        
+        <div class="publication-links">
+          <a href="https://ieeexplore.ieee.org/document/10756724" class="pub-link">
+            <i class="fas fa-link"></i> Paper
+          </a>
+          <a href="data/graph-inpainitng-spl2024.bib" class="pub-link">
+            <i class="fas fa-quote-right"></i> BibTeX
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
