@@ -3,3 +3,16 @@
 # Temporary directory
 tmp/*
 _site/*
+
+# Jekyll files
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Ruby/Bundler
+Gemfile.lock
+.bundle/
+vendor/
+
+# Google SEO files
+google*.html

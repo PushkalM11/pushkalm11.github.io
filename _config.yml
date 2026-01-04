@@ -1,0 +1,21 @@
+# Site settings
+title: Pushkal Mishra
+email: pumishra@ucsd.edu
+description: PhD in ECE at UCSD
+url: "https://pushkalm11.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache

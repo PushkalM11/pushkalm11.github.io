@@ -456,7 +456,6 @@ a:hover {
   border-radius: var(--border-radius-sm);
   font-size: var(--font-size-xs);
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
@@ -468,8 +467,18 @@ a:hover {
   border-radius: var(--border-radius-sm);
   font-size: var(--font-size-xs);
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+.award a {
+  color: var(--background);
+  text-decoration: none;
+  transition: opacity var(--transition-fast);
+}
+
+.award a:hover {
+  opacity: 0.85;
+  text-decoration: underline;
 }
 
 .publication-description {
