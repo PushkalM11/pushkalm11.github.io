@@ -1,420 +1,194 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Pushkal Mishra | PhD in ECE at UCSD | Machine Learning & Computer Vision Researcher</title>
-  <meta name="author" content="Pushkal Mishra">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pushkal Mishra - PhD student at UCSD specializing in deep learning, computer vision, autonomous driving, and multi-modal perception. Research in scalable AI systems and sensor fusion.">
-  <meta name="keywords" content="Pushkal Mishra, UCSD, PhD, machine learning, deep learning, computer vision, autonomous driving, sensor fusion, multi-modal perception, artificial intelligence, research, publications">
+  <title>Pushkal Mishra | Multimodal Learning &amp; VLA Post-training</title>
+  <meta name="author" content="Pushkal Mishra">
+  <meta name="description" content="Pushkal Mishra is a PhD student at UC San Diego researching multimodal learning, vision-language-action models, post-training, and scalable simulation for autonomous systems.">
   <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
+  <link rel="canonical" href="https://pushkalm11.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://pushkalm11.github.io/">
-  <meta property="og:title" content="Pushkal Mishra | PhD in ECE at UCSD">
-  <meta property="og:description" content="PhD student at UCSD specializing in deep learning, computer vision, and autonomous driving research.">
-  <meta property="og:image" content="https://pushkalm11.github.io/images/pushkal25.jpeg">
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://pushkalm11.github.io/">
-  <meta property="twitter:title" content="Pushkal Mishra | PhD in ECE at UCSD">
-  <meta property="twitter:description" content="PhD student at UCSD specializing in deep learning, computer vision, and autonomous driving research.">
-  <meta property="twitter:image" content="https://pushkalm11.github.io/images/pushkal25.jpeg">
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://pushkalm11.github.io/">
-  
-  <link rel="stylesheet" type="text/css" href="./stylesheet.css">
-  <link rel="icon" type="image/svg" href="./images/ucsd-seal.svg">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1TFF6NWE23"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-1TFF6NWE23');
-  </script>
-  
-  <!-- Structured Data -->
+  <meta property="og:title" content="Pushkal Mishra | Multimodal Learning &amp; VLA Post-training">
+  <meta property="og:description" content="Learning systems that perceive, reason, and act. Research in multimodal representations, VLA post-training, and simulation at UC San Diego and Bosch Center for AI.">
+  <meta property="og:image" content="https://pushkalm11.github.io/images/pushkal-profile-2026.jpeg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pushkal Mishra | Multimodal Learning &amp; VLA Post-training">
+  <meta name="twitter:description" content="Multimodal representations, VLA post-training, and scalable simulation for autonomous systems.">
+  <meta name="twitter:image" content="https://pushkalm11.github.io/images/pushkal-profile-2026.jpeg">
+  <link rel="icon" type="image/svg+xml" href="images/ucsd-seal.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Pushkal Mishra",
-    "url": "https://pushkalm11.github.io",
-    "image": "https://pushkalm11.github.io/images/pushkal25.jpeg",
-    "jobTitle": "PhD Student",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "University of California San Diego",
-      "url": "https://ucsd.edu"
-    },
-    "alumniOf": {
-      "@type": "Organization",
-      "name": "Indian Institute of Technology Hyderabad",
-      "url": "https://iith.ac.in"
-    },
-    "knowsAbout": ["Machine Learning", "Deep Learning", "Computer Vision", "Autonomous Driving", "Multi-modal Perception", "Sensor Fusion", "Artificial Intelligence"],
-    "sameAs": [
-      "https://www.linkedin.com/in/pushkal-mishra-014829218/",
-      "https://scholar.google.com/citations?user=woMhwX0AAAAJ&hl=en",
-      "https://github.com/PushkalM11/",
-      "https://orcid.org/0009-0007-4904-3190"
-    ],
-    "email": "pumishra@ucsd.edu"
-  }
+  {"@context":"https://schema.org","@type":"Person","name":"Pushkal Mishra","url":"https://pushkalm11.github.io/","image":"https://pushkalm11.github.io/images/pushkal-profile-2026.jpeg","jobTitle":"PhD Student","affiliation":{"@type":"Organization","name":"University of California San Diego","url":"https://ucsd.edu/"},"alumniOf":{"@type":"Organization","name":"Indian Institute of Technology Hyderabad"},"knowsAbout":["Multimodal Learning","Vision-Language-Action Models","Post-training","Sensor Fusion","Simulation","Autonomous Driving"],"sameAs":["https://www.linkedin.com/in/pushkal-mishra-014829218/","https://scholar.google.com/citations?user=woMhwX0AAAAJ","https://github.com/PushkalM11/","https://orcid.org/0009-0007-4904-3190"],"email":"pumishra@ucsd.edu"}
+  </script>
+  <script>
+    // Preserve production analytics without recording local development visits.
+    if (location.hostname === 'pushkalm11.github.io') {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1TFF6NWE23');
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1TFF6NWE23';
+      document.head.appendChild(script);
+    }
   </script>
 </head>
-
 <body>
-  <div class="container">
-    <!-- Introduction Section -->
-    <header class="hero-section">
-      <div class="hero-content">
-        <div class="profile-info">
-          <h1 class="name">Pushkal Mishra</h1>
-          <p class="tagline">PhD in ECE at UCSD</p>
-          
-          <div class="bio">
-            <!-- <p>I am a PhD student at <a href="https://ucsd.edu/">University of California San Diego (UCSD)</a> working in the innovative <a href="https://wcsng.ucsd.edu">Wireless Communication, Sensing and Networking Group (WCSNG)</a> advised by <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=433">Prof Dinesh Bharadia</a>.</p>
-            
-            <p>My research focuses on developing scalable deep learning systems that perceive, reason, and interact with the physical world, with applications in autonomous driving and embodied intelligence. I work at the intersection of multi-modal perception, sensor fusion, and large language models (LLMs), building frameworks that unify simulation, real-world sensing, and language grounding for robust scene understanding.</p> 
-              
-            <p>A core theme of my work is designing modular, interpretable architectures that integrate diverse sensors to improve generalization and reliability in complex environments. I also specialize in training large-scale foundation models on distributed GPU clusters (Kubernetes), enabling scalable multi-modal learning and spatial reasoning across perception and language domains.</p>
-
-            <p>I completed my undergraduate studies at <a href="https://iith.ac.in/">Indian Institute of Technology Hyderabad</a>, where I earned my B.Tech in Electrical Engineering with a minor in Computer Science. During my undergraduate years, I was fortunate to be advised by <a href="https://iith.ac.in/ee/staditya/">Prof. Aditya Siripuram</a> and <a href="https://ayonborthakur.pages.dev/">Prof. Ayon Borthakur</a> on projects spanning graph learning, neural networks, and signal processing.</p>
-            
-            <p>Besides work, I enjoy playing a lot of sports such as ultimate frisbee, swimming and badminton. I love listening to music and my favourite activity to unwind is to drive! I also represented my squash team at multiple competitions such as <a href="https://www.gymkhana.iith.ac.in/events/milan">Milan</a> and <a href="https://www.gymkhana.iith.ac.in/events/diesta">Diesta</a> during my undergraduate.</p> -->
-            <p>I am a second-year PhD student at <a href="https://ucsd.edu/">UC San Diego</a> advised by <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=433">Prof Dinesh Bharadia</a>. I work at the <a href="https://wcsng.ucsd.edu">WCSNG Lab</a>, where my research focuses on developing scalable deep learning systems that perceive, reason, and interact with the physical world, with applications in autonomous driving and embodied intelligence. My interests lie at the intersection of multi-modal perception, sensor fusion, and large language models (LLMs).</p> 
-        
-            <p>I completed my undergraduate at <a href="https://iith.ac.in/">IIT Hyderabad</a>, in the department of <a href="https://ee.iith.ac.in/">Electrical Engineering</a> with a minor in <a href="https://cse.iith.ac.in/">Computer Science</a>. I was fortunate to be advised by <a href="https://iith.ac.in/ee/staditya/">Prof. Aditya Siripuram</a> and <a href="https://ayonborthakur.pages.dev/">Prof. Ayon Borthakur</a>. My projects spanned data inpainting, graph learning, efficient algorithms for neural network training, and image processing.</p>
-            
-            <p>Besides work, I enjoy swimming, squash, badminton and ultimate frisbee. I love listening to music and my favourite activity to unwind is to go on long drives. I also represented my squash team at multiple competitions in IIT Hyderabad.</p>
-          </div>
-          
-          <!-- Social Links and Email Section -->
-          <div class="social-links">
-            <a href="https://www.linkedin.com/in/pushkal-mishra-014829218/" class="social-link">
-              <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://scholar.google.com/citations?user=woMhwX0AAAAJ&hl=en" class="social-link">
-              <i class="fas fa-graduation-cap"></i> Google Scholar
-            </a>
-            <!-- <a href="https://github.com/PushkalM11/" class="social-link">
-              <i class="fab fa-github"></i> GitHub
-            </a> -->
-            <a href="files/resume.pdf" class="social-link" target="_blank">
-              <i class="fas fa-file-pdf"></i> CV
-            </a>
-            <!-- <a href="https://orcid.org/0009-0007-4904-3190" class="social-link">
-              <i class="fab fa-orcid"></i> ORCID
-            </a> -->
-            <a href="mailto:pumishra@ucsd.edu" class="social-link">
-              <i class="fas fa-envelope"></i> Email
-            </a>
-          </div>
-        </div>
-        
-        <div class="profile-image">
-          <img src="images/pushkal25.jpeg" alt="Pushkal Mishra" class="avatar">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="wordmark" href="#about">Pushkal Mishra<span class="wordmark-dot" aria-hidden="true">.</span></a>
+      <div class="nav-links"><a href="#research">Research</a><a href="#updates">Updates</a><a href="#experience">Experience</a><a href="mailto:pumishra@ucsd.edu">Contact <span aria-hidden="true">↗</span></a></div>
+    </nav>
+  </header>
+  <main id="main" class="container">
+    <section id="about" class="hero" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="eyebrow">Multimodal learning · Physical AI</p>
+        <h1 id="name">Pushkal Mishra</h1>
+        <p class="affiliation">PhD student, Electrical &amp; Computer Engineering<br>University of California San Diego</p>
+        <p>I am advised by <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=433">Prof. Dinesh Bharadia</a> in the <a href="https://wcsng.ucsd.edu/">WCSNG Lab</a>. My research focuses on learning systems that perceive, reason, and act in the physical world.</p>
+        <p>I work on <strong>multimodal representations</strong> and <strong>vision-language-action models</strong>, with an emphasis on <strong>post-training through simulated interaction</strong>. My work connects sensor understanding, scalable simulation, and model adaptation to help autonomous systems learn from experience and generalize to new environments.</p>
+        <p>At <a href="#bosch">Bosch Center for AI</a>, I developed a framework for post-training VLA driving policies using feedback from their own simulated experience. The work combines parallel CARLA simulation and distributed fine-tuning to support large-scale learning and closed-loop evaluation.</p>
+        <div class="social-links" aria-label="Profile links">
+          <a class="primary-link" href="files/resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
+          <a href="https://scholar.google.com/citations?user=woMhwX0AAAAJ">Google Scholar</a>
+          <a href="https://github.com/PushkalM11/">GitHub</a>
+          <a href="https://www.linkedin.com/in/pushkal-mishra-014829218/">LinkedIn</a>
+          <a href="mailto:pumishra@ucsd.edu">Email</a>
         </div>
       </div>
-    </header>
-
-    <!-- Publications Section -->
-    <section class="publications-section">
-      <div class="section-header">
-        <h2>Publications</h2>
-        <p class="section-description">
-          I am broadly interested in the intersection of sensing and machine learning. I am very passionate about developing deep learning systems that have real-world impact and drive innovation.
-        </p>
-      </div>
-      
-      <div class="publications-grid">
-        <!-- Publication 1: C-Shenron VTC -->
-        <!-- <article class="publication-card" onmouseout="cshenron_stop()" onmouseover="cshenron_start()">
-          <div class="publication-media">
-            <div class="media-container">
-              <div class="video-overlay" id='cshenron_image'>
-                <img src='images/c-shenron-vtc25.gif' alt="C-Shenron VTC" class="publication-image">
-              </div>
-            </div>
-          </div> -->
-        <article class="publication-card" onmouseout="cshenron_stop()" onmouseover="cshenron_start()">
-          <div class="publication-media">
-            <div class="media-container">
-              <img src='images/c-shenron-vtc25-poster.jpg' alt="C-Shenron VTC" class="publication-image" id='cshenron_static'>
-              <div class="video-overlay" id='cshenron_image'>
-                <img src='images/c-shenron-vtc25.gif' alt="C-Shenron VTC" class="publication-image">
-              </div>
-            </div>
-          </div>
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="https://wcsng.ucsd.edu/c-shenron/">
-                A Realistic Radar Simulator for End-to-End Autonomous Driving in CARLA
-              </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <strong>Satyam Srivastava*</strong>,
-              <strong>Jerry Li*</strong>,
-              <strong>Pushkal Mishra*</strong>,
-              Kshitiz Bansal,
-              Dinesh Bharadia
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue"><a href="https://events.vtsociety.org/vtc2025-fall/" target="_blank" style="color: white;">IEEE VTC Fall 2025</a></span>
-            </div>
-            
-            <p class="publication-description">
-              We present C-Shenron, a radar simulation framework integrated into CARLA that generates realistic radar measurements by fusing LiDAR and camera data. Our framework supports configurable radar parameters and demonstrates that radar-camera fusion models achieve performance equivalent to LiDAR-camera baselines on CARLA leaderboard metrics.
-            </p>
-            
-            <div class="publication-links">
-              <a href="https://wcsng.ucsd.edu/c-shenron/" class="pub-link">
-                <i class="fas fa-globe"></i> Project Page
-              </a>
-              <a href="http://wcsng-41.nrp-nautilus.io:8000/" class="pub-link">
-                <i class="fas fa-database"></i> Dataset
-              </a>
-              <a href="https://www.youtube.com/playlist?list=PLMklUDp_gXNE2W83f0UNoK7Vrs9QZROIv" class="pub-link">
-                <i class="fas fa-video"></i> Videos
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Publication 2: C-Shenron Demo -->
-        <article class="publication-card">
-          <div class="publication-media">
-            <div class="media-container">
-              <img src='images/c-shenron-demo-sensys25.png' alt="C-Shenron Demo" class="publication-image">
-            </div>
-          </div>
-          
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="https://wcsng.ucsd.edu/c-shenron-demo/">
-                Demo: Radar Simulator for CARLA
-              </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <strong>Pushkal Mishra</strong>,
-              Satyam Srivastava,
-              Jerry Li,
-              Kshitiz Bansal,
-              Dinesh Bharadia
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue"><a href="https://sensys.acm.org/2025/" target="_blank" style="color: white;">ACM SenSys 2025</a></span>
-            </div>
-            
-            <p class="publication-description">
-              C-Shenron is the first realistic radar simulator that utilizes LiDAR and camera sensors to generate high-fidelity radar ADC measurements from physics-based modeling. We demonstrate improved performance in end-to-end driving scenarios and aim to rekindle interest in radar-based self-driving research.
-            </p>
-            
-            <div class="publication-links">
-              <a href="https://wcsng.ucsd.edu/c-shenron-demo/" class="pub-link">
-                <i class="fas fa-globe"></i> Project Page
-              </a>
-              <a href="data/c-shenron-demo-sensys25.bib" class="pub-link">
-                <i class="fas fa-quote-right"></i> BibTeX
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Publication 3: SPELA -->
-        <article class="publication-card">
-          <div class="publication-media">
-            <div class="media-container">
-              <img src='images/spela-tmlr25.png' alt="SPELA Learning" class="publication-image">
-            </div>
-          </div>
-          
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="https://openreview.net/forum?id=EDQ8QOGqjr">
-                Learning Using a Single Forward Pass
-              </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <strong>Aditya Somasundaram*</strong>,
-              <strong>Pushkal Mishra*</strong>,
-              Ayon Borthakur
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue"><a href="https://jmlr.org/tmlr/papers/" target="_blank" style="color: white;">TMLR 2025</a></span>
-              <span class="award"><a href="https://www.nyas.org/ideas-insights/blog/from-neural-networks-to-reinforcement-learning-to-game-theory/#:~:text=Award%2DWinning%20Research" target="_blank" style="color: white;">Best Poster Award at NYAS 2025</a></span>
-            </div>
-            
-            <p class="publication-description">
-              We propose SPELA, a learning algorithm that operates with local loss functions using a single forward pass, significantly reducing memory and computational requirements. SPELA eliminates gradient propagation while demonstrating competitive performance with backpropagation on standard benchmarks, making it ideal for resource-constrained edge AI applications.
-            </p>
-            
-            <div class="publication-links">
-              <a href="https://openreview.net/forum?id=EDQ8QOGqjr" class="pub-link">
-                <i class="fas fa-link"></i> Paper
-              </a>
-              <a href="files/spela-nyas-poster.pdf" class="pub-link">
-                <i class="fas fa-image"></i> Poster
-              </a>
-              <a href="data/spela-learning-tmlr2025.bib" class="pub-link">
-                <i class="fas fa-quote-right"></i> BibTeX
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Publication 4: Graph Inpainting -->
-        <article class="publication-card">
-          <div class="publication-media">
-            <div class="media-container">
-              <img src='images/graph-inpainting-spl24.png' alt="Graph Inpainting" class="publication-image">
-            </div>
-          </div>
-          
-          <div class="publication-content">
-            <h3 class="publication-title">
-              <a href="https://ieeexplore.ieee.org/document/10756724">
-                Inpainting-Driven Graph Learning via Explainable Neural Networks
-              </a>
-            </h3>
-            
-            <div class="publication-authors">
-              <strong>Subbareddy Batreddy*</strong>,
-              <strong>Pushkal Mishra*</strong>,
-              Yaswanth Kakarla,
-              Aditya Siripuram
-            </div>
-            
-            <div class="publication-venue">
-              <span class="venue"><a href="https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters" target="_blank" style="color: white;">IEEE Signal Processing Letters 2024</a></span>
-            </div>
-            
-            <p class="publication-description">
-              We propose an algorithm for simultaneous data restoration and graph structure learning using an interpretable neural network designed from unrolling framework. Our closed-loop feedback mechanism guides graph learning based on inpainting performance, achieving robust results under noisy conditions on sensor network datasets.
-            </p>
-            
-            <div class="publication-links">
-              <a href="https://ieeexplore.ieee.org/document/10756724" class="pub-link">
-                <i class="fas fa-link"></i> Paper
-              </a>
-              <a href="data/graph-inpainitng-spl2024.bib" class="pub-link">
-                <i class="fas fa-quote-right"></i> BibTeX
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
+      <figure class="portrait"><img src="images/pushkal-profile-2026.jpeg" width="2380" height="1792" alt="Pushkal Mishra" fetchpriority="high"><figcaption>San Diego, California</figcaption></figure>
     </section>
 
-    <!-- News Section -->
-    <section class="news-section">
-      <div class="section-header">
-        <h2>News</h2>
-      </div>
-      
-      <div class="news-content">
-        <ul class="news-list">
-          <li><strong>October 2025:</strong> Research paper on <a href="https://wcsng.ucsd.edu/c-shenron">High-Fidelity Radar Simulator in CARLA</a> accepted at <em>IEEE Vehicular Technology Conference, Fall 2025</em>, Chengdu, China (presented virtually).</li>
-          <li><strong>June 2025:</strong> Research paper on <a href="https://openreview.net/pdf?id=EDQ8QOGqjr">Backprop-Free Training</a> accepted at <em>Transactions on Machine Learning Research (TMLR)</em>.</li>
-          <li><strong>May 2025:</strong> Presented my work on <a href="https://dl.acm.org/doi/10.1145/3715014.3724379/">High-Fidelity Radar Simulator Demo</a> at <em>ACM Conference on Embedded Networked Sensor Systems (2025)</em>, Irvine, CA, USA.</li>
-          <li><strong>April 2025:</strong> Presented Graph Signal Inpainting work at <em>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)</em>, Hyderabad, India.</li>
-          <li><strong>November 2024:</strong> My first research paper on <a href="https://ieeexplore.ieee.org/document/10756724">Inpainting-Driven Graph Learning</a> accepted at <em>IEEE Signal Processing Letters!</em></li>
-          <li><strong>September 2024:</strong> Started my PhD journey at UCSD!</li>
-          <li><strong>May 2023:</strong> Started internship at <a href="https://www.ti.com/">Texas Instruments</a>, Bangalore, India.</li>
+    <section id="updates" class="updates section-split" aria-labelledby="updates-title">
+      <div><p class="eyebrow">Recently</p><h2 id="updates-title">Updates</h2></div>
+      <div class="updates-body">
+        <ul class="news-list" tabindex="0" aria-label="Updates, scroll for older entries">
+          <li><time datetime="2026-09">Sep 2026</time><span>Completed my AI Research Internship at <strong>Bosch Center for AI</strong>, working on post-training driving VLAs.</span></li>
+          <li><time datetime="2025-11">Nov 2025</time><span><a href="https://arxiv.org/abs/2511.21105">RLM: A Vision-Language Model Approach for Radar Scene Understanding</a> is available on arXiv.</span></li>
+          <li><time datetime="2025-10">Oct 2025</time><span>Presented our <a href="https://wcsng.ucsd.edu/c-shenron/">radar simulator research</a> virtually at IEEE VTC Fall 2025.</span></li>
+          <li><time datetime="2025-06">Jun 2025</time><span><a href="https://openreview.net/forum?id=EDQ8QOGqjr">Learning Using a Single Forward Pass</a> accepted at TMLR.</span></li>
+          <li><time datetime="2025-05">May 2025</time><span>Presented our <a href="https://doi.org/10.1145/3715014.3724379">radar simulation demo</a> at ACM SenSys in Irvine.</span></li>
+          <li><time datetime="2025-04">Apr 2025</time><span>Presented our graph-learning research at ICASSP in Hyderabad.</span></li>
+          <li><time datetime="2024-11">Nov 2024</time><span>Our <a href="https://doi.org/10.1109/LSP.2024.3501273">graph-learning paper</a> was accepted in IEEE Signal Processing Letters.</span></li>
+          <li><time datetime="2024-09">Sep 2024</time><span>Started my PhD at UC San Diego.</span></li>
+          <li><time datetime="2023-05">May 2023</time><span>Joined Texas Instruments in Bangalore as a Signal Processing Intern.</span></li>
         </ul>
+        <p class="news-scroll-hint">Scroll for earlier updates ↓</p>
       </div>
     </section>
 
-    <!-- Experience Section -->
-    <section class="experience-section">
-      <div class="section-header">
-        <h2>Experience</h2>
-        <p class="section-description">
-          Throughout my academic journey, I have gained valuable industry and research experience through internships and leadership roles.
-        </p>
-      </div>
-      
-      <div class="experience-grid">
-        <!-- Texas Instruments -->
-        <article class="experience-card">
-          <div class="experience-media">
-            <div class="media-container">
-              <img src='images/ti_logo.svg' alt="Texas Instruments" class="experience-image">
-            </div>
+    <section id="research" aria-labelledby="research-title" class="research-section">
+      <div class="section-heading"><div><p class="eyebrow">Methods, models &amp; systems</p><h2 id="research-title">Research</h2></div><p>Learning from sensors and interaction, <br>from representations to driving behavior.</p></div>
+      <article id="bosch" class="research-item featured">
+        <figure class="research-figure loop-figure">
+          <p class="figure-heading">Learning from simulated interaction</p>
+          <div class="learning-loop" role="img" aria-label="Learning loop: a VLA driving policy generates parallel CARLA rollouts; driving outcomes provide training supervision for post-training and subsequent policy evaluation.">
+            <div class="loop-node"><span class="step">01</span><strong>Driving policy</strong><span>Vision-language-action model</span></div>
+            <span class="loop-arrow arrow-right" aria-hidden="true">→</span>
+            <div class="loop-node"><span class="step">02</span><strong>Simulation</strong><span>Parallel CARLA rollouts</span></div>
+            <span class="loop-arrow arrow-down" aria-hidden="true">↓</span>
+            <div class="loop-node node-training"><span class="step">04</span><strong>Post-training</strong><span>Distributed fine-tuning</span></div>
+            <span class="loop-arrow arrow-left" aria-hidden="true">←</span>
+            <div class="loop-node node-outcomes"><span class="step">03</span><strong>Supervision</strong><span>Driving outcomes</span></div>
+            <span class="loop-arrow arrow-up" aria-hidden="true">↑</span>
           </div>
-          
-          <div class="experience-content">
-            <h3 class="company-name">Texas Instruments</h3>
-            <div class="position">Signal Processing Intern</div>
-            <div class="location">Bangalore, India</div>
-            <div class="duration">May, 2023 - July, 2023</div>
-            <p class="description">Designed and implemented a cross-talk cancellation algorithm for spatial audio playback. Developed an efficient low-order filter approximation using bi-quad and all-pass filters.</p>
-          </div>
-        </article>
-
-        <!-- IIT Hyderabad -->
-        <article class="experience-card">
-          <div class="experience-media">
-            <div class="media-container">
-              <img src='images/iith_logo.png' alt="IIT Hyderabad" class="experience-image">
-            </div>
-          </div>
-          
-          <div class="experience-content">
-            <h3 class="company-name">IIT Hyderabad</h3>
-            <div class="position">Teaching Assistant</div>
-            <div class="location">Hyderabad, India</div>
-            <div class="duration">Aug, 2023 - May, 2024</div>
-            <p class="mentors">With Prof. Aditya Siripuram</p>
-            <p class="description">Assistant for Linear Systems & Signal Processing and Probability for AI. Conducted tutorial sessions and formulated questions for exams.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-  </div>
-
-  <!-- JavaScript for hover effects -->
-  <script>
-    function cshenron_start() {
-      document.getElementById('cshenron_image').style.opacity = "1";
-    }
-    function cshenron_stop() {
-      document.getElementById('cshenron_image').style.opacity = "0";
-    }
-    cshenron_stop();
-  </script>
-  
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <!-- Visitor Counter Section -->
-      <div class="visitor-counter">
-        <h3>Visitors from around the world</h3>
-        <div class="flag-counter-container">
-          <a href="https://info.flagcounter.com/tKxv"><img src="https://s11.flagcounter.com/count2/tKxv/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+          <figcaption>Collect experience. Adapt the model.<br>Evaluate driving behavior.</figcaption>
+        </figure>
+        <div class="research-copy">
+          <p class="project-context">Bosch Center for AI <span>2026 · Industry research</span></p>
+          <h3>Post-training vision-language-action models through simulation</h3>
+          <p>I developed a framework that turns simulated driving experience into supervision for adapting VLA models. It connects self-replay, evaluation of alternative driving actions, and distributed fine-tuning in a closed-loop learning workflow.</p>
+          <p>My contributions span the post-training pipeline, parallel CARLA simulation across GPU servers, and efficient inference for scalable trajectory collection and evaluation.</p>
+          <ul class="tags" aria-label="Research methods and systems"><li>VLA post-training</li><li>Closed-loop learning</li><li>LoRA</li><li>Parallel simulation</li></ul>
+          <p class="project-note">AI Research Internship · Pittsburgh, PA · June - September 2026</p>
         </div>
+      </article>
+
+      <article id="radar-language" class="research-item">
+        <figure class="research-figure"><a href="images/rlm-architecture-arxiv-v4.png" target="_blank" rel="noopener" aria-label="Enlarge RadarLM architecture diagram from Figure 1 of the paper"><img src="images/rlm-architecture-arxiv-v4.png" width="1880" height="1285" loading="lazy" alt="RadarLM architecture: contrastive radar-language pre-training followed by vehicle segmentation and caption generation using a frozen radar encoder."></a><figcaption>Radar-language pre-training, segmentation, and caption generation. Figure 1 from the paper; click to enlarge.</figcaption></figure>
+        <div class="research-copy">
+          <p class="project-context">UC San Diego <span>2025 - Present · Preprint</span></p>
+          <h3>Radar-language representations for scene understanding</h3>
+          <p>I developed a radar-language foundation model that supports scene description and object segmentation through a shared representation. Spatially aware contrastive training preserves object-location information, improving segmentation average precision by <strong>21% relative to CLIP in simulation</strong>.</p>
+          <p>I built the data and distributed training pipeline for <strong>800K+ radar-caption pairs</strong> from 110+ hours of simulation, and demonstrated transfer to real radar sensors by adapting a lightweight decoder.</p>
+          <ul class="tags" aria-label="Research methods and systems"><li>Multimodal learning</li><li>Contrastive learning</li><li>Sim-to-real</li><li>PyTorch</li></ul>
+          <div class="citation"><h4>RLM: A Vision-Language Model Approach for Radar Scene Understanding</h4><p><strong>Pushkal Mishra</strong>, Kshitiz Bansal, Dinesh Bharadia</p><p class="venue">arXiv, 2025 · Revised March 2026</p></div>
+          <div class="project-links"><a href="https://arxiv.org/abs/2511.21105">Paper <span aria-hidden="true">↗</span></a><a href="data/rlm.bib">BibTeX</a></div>
+        </div>
+      </article>
+
+      <article id="radar-simulation" class="research-item">
+        <figure class="research-figure"><a href="images/c-shenron-vtc25-poster.jpg" target="_blank" rel="noopener" aria-label="Enlarge radar simulator poster"><img src="images/c-shenron-vtc25-poster.jpg" width="540" height="360" loading="lazy" alt="C-Shenron radar simulation poster showing the sensor modeling pipeline and driving evaluation."></a><figcaption>Physics-based radar simulation integrated into CARLA.</figcaption></figure>
+        <div class="research-copy">
+          <p class="project-context">UC San Diego <span>2024 - 2025</span></p>
+          <h3>Radar simulation for autonomous driving</h3>
+          <p>I co-developed a physics-based radar simulator that models material-dependent radar reflections and supports configurable sensors in CARLA. I built parallel data-generation pipelines in Kubernetes across towns, weather, and sensor configurations, and evaluated radar-camera fusion for end-to-end driving against LiDAR-camera baselines.</p>
+          <ul class="tags" aria-label="Research methods and systems"><li>Sensor simulation</li><li>Synthetic data</li><li>Sensor fusion</li><li>Kubernetes</li></ul>
+          <div class="citation"><h4>A Realistic Radar Simulator for End-to-End Autonomous Driving in CARLA</h4><p>Satyam Srivastava*, Jerry Li*, <strong>Pushkal Mishra*</strong>, Kshitiz Bansal, Dinesh Bharadia</p><p class="venue">IEEE VTC Fall 2025</p></div>
+          <div class="citation"><h4>Demo Abstract: C-Shenron: A Realistic Radar Simulation Framework for CARLA</h4><p><strong>Pushkal Mishra</strong>, Satyam Srivastava, Jerry Li, Kshitiz Bansal, Dinesh Bharadia</p><p class="venue">ACM SenSys 2025 · Demo</p></div>
+          <div class="project-links"><a href="https://wcsng.ucsd.edu/c-shenron/">Project <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.1145/3715014.3724379">Demo paper</a><a href="https://www.youtube.com/playlist?list=PLMklUDp_gXNE2W83f0UNoK7Vrs9QZROIv">Videos</a><a href="data/c-shenron-demo-sensys25.bib">Demo BibTeX</a></div>
+        </div>
+      </article>
+
+      <article id="efficient-learning" class="research-item">
+        <figure class="research-figure"><a href="images/spela-tmlr25.png" target="_blank" rel="noopener" aria-label="Enlarge single-forward-pass learning figure"><img src="images/spela-tmlr25.png" width="540" height="360" loading="lazy" alt="Architecture of a neural network trained using local learning objectives in a single forward pass."></a><figcaption>Local learning objectives for memory-efficient training.</figcaption></figure>
+        <div class="research-copy">
+          <p class="project-context">IIT Hyderabad <span>2023 - 2024</span></p>
+          <h3>Memory-efficient neural network training</h3>
+          <p>I co-developed a learning algorithm that trains neural networks in a single forward pass without backpropagation. I evaluated image classification and transfer learning in PyTorch, studying how training memory scales with network depth and batch size.</p>
+          <ul class="tags" aria-label="Research methods"><li>Learning algorithms</li><li>Training efficiency</li><li>Local learning</li></ul>
+          <div class="citation"><h4>Learning Using a Single Forward Pass</h4><p>Aditya Somasundaram*, <strong>Pushkal Mishra*</strong>, Ayon Borthakur</p><p class="venue">Transactions on Machine Learning Research, 2025</p></div>
+          <div class="project-links"><a href="https://openreview.net/forum?id=EDQ8QOGqjr">Paper <span aria-hidden="true">↗</span></a><a href="files/spela-nyas-poster.pdf">Poster</a><a href="data/spela-learning-tmlr2025.bib">BibTeX</a></div>
+        </div>
+      </article>
+
+      <article id="graph-learning" class="research-item">
+        <figure class="research-figure"><a href="images/graph-inpainting-spl24.png" target="_blank" rel="noopener" aria-label="Enlarge graph learning figure"><img src="images/graph-inpainting-spl24.png" width="540" height="360" loading="lazy" alt="Architecture coupling sensor-signal reconstruction with graph learning through an unrolled optimization framework."></a><figcaption>Joint reconstruction of measurements and sensor relationships.</figcaption></figure>
+        <div class="research-copy">
+          <p class="project-context">IIT Hyderabad <span>2022 - 2024</span></p>
+          <h3>Graph learning from incomplete sensor data</h3>
+          <p>I developed an interpretable neural network that jointly reconstructs missing measurements and learns relationships between data sources. The architecture unrolls iterative optimization and uses reconstruction feedback to guide graph learning, with evaluation on synthetic data and noisy temperature-sensor networks.</p>
+          <ul class="tags" aria-label="Research methods"><li>Graph learning</li><li>Optimization</li><li>Signal reconstruction</li></ul>
+          <div class="citation"><h4>Inpainting-Driven Graph Learning via Explainable Neural Networks</h4><p>Subbareddy Batreddy*, <strong>Pushkal Mishra*</strong>, Yaswanth Kakarla, Aditya Siripuram</p><p class="venue">IEEE Signal Processing Letters, vol. 32, 2025 · Presented at ICASSP 2025</p></div>
+          <div class="project-links"><a href="https://doi.org/10.1109/LSP.2024.3501273">Paper <span aria-hidden="true">↗</span></a><a href="data/graph-inpainitng-spl2024.bib">BibTeX</a></div>
+        </div>
+      </article>
+      <p class="equal-contribution">* Equal contribution.</p>
+    </section>
+
+    <section id="experience" class="experience-section section-split" aria-labelledby="experience-title">
+      <div><p class="eyebrow">Research &amp; teaching</p><h2 id="experience-title">Experience</h2></div>
+      <div class="experience-list">
+        <article class="experience-entry"><div class="experience-top"><h3>Bosch Center for AI</h3><p>Jun - Sep 2026</p></div><p class="role">AI Research Intern · Pittsburgh, PA</p><p>VLA post-training, simulation-based supervision, and scalable closed-loop learning. <a href="#bosch">Research overview <span aria-hidden="true">↑</span></a></p></article>
+        <article class="experience-entry"><div class="experience-top"><h3>UC San Diego</h3><p>Jan - Mar 2025</p></div><p class="role">Teaching Assistant, Embedded System Design · San Diego, CA</p><p>Led labs for 17 graduate students on embedded programming, multiprocessing, and real-time systems using PYNQ-Z2 and ARM processors.</p></article>
+        <article class="experience-entry"><div class="experience-top"><h3>IIT Hyderabad</h3><p>Aug 2023 - May 2024</p></div><p class="role">Teaching Assistant · Hyderabad, India</p><p>Conducted tutorials in Linear Systems &amp; Signal Processing and Probability for AI with Prof. Aditya Siripuram.</p></article>
+        <article class="experience-entry"><div class="experience-top"><h3>Texas Instruments</h3><p>May - Jul 2023</p></div><p class="role">Signal Processing Intern · Bangalore, India</p><p>Developed cross-talk cancellation for spatial audio playback and efficient low-order approximations using biquad and all-pass filters.</p></article>
       </div>
-      
-      <p class="footer-text">
-        This website was originally forked from <a href="https://sinabiz.github.io//">Mohammad Sina Nabizadeh</a>, and I've since made modifications using Github Copilot and Cline.
-      </p>
-    </div>
-  </footer>
+    </section>
+
+    <section class="background-section section-split" aria-labelledby="background-title">
+      <div><p class="eyebrow">A little more</p><h2 id="background-title">Background</h2></div>
+      <div><p>I completed my B.Tech in Electrical Engineering with a Computer Science minor at <a href="https://iith.ac.in/">IIT Hyderabad</a>. I worked with <a href="https://iith.ac.in/ee/staditya/">Prof. Aditya Siripuram</a> and <a href="https://ayonborthakur.pages.dev/">Prof. Ayon Borthakur</a> on graph learning, signal reconstruction, and efficient neural network training.</p><p>Outside research, I enjoy swimming, squash, badminton, ultimate frisbee, music, and long drives. I also played squash in competitions at IIT Hyderabad.</p></div>
+    </section>
+  </main>
+  <footer class="container footer"><p>Pushkal Mishra · <a href="mailto:pumishra@ucsd.edu">pumishra@ucsd.edu</a></p><p>Updated September 2026 · <a href="https://sinabiz.github.io/">Original template credit</a></p></footer>
+<script>
+    const updatesList = document.querySelector('.updates .news-list');
+    const visibleUpdates = Array.from(updatesList.children).slice(0, 3);
+    function sizeUpdates() {
+      updatesList.style.height = visibleUpdates.reduce((height, item) => height + item.getBoundingClientRect().height, 0) + 'px';
+    }
+    sizeUpdates();
+    const updatesObserver = new ResizeObserver(sizeUpdates);
+    visibleUpdates.forEach(item => updatesObserver.observe(item));
+  </script>
 </body>
 </html>
